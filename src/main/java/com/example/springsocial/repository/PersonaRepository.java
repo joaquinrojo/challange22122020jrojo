@@ -1,7 +1,6 @@
 package com.example.springsocial.repository;
 
 import com.example.springsocial.model.Persona;
-import com.example.springsocial.model.User;
 import org.springframework.stereotype.Repository;
 
 import java.util.Optional;

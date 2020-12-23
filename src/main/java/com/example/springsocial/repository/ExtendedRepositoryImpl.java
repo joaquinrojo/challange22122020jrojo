@@ -36,7 +36,6 @@ public class ExtendedRepositoryImpl<T, ID extends Serializable>
          return entityManager.find(this.entityClass,id);
     }
 
-
     @Transactional
     public List<T> findByAttributeContainsText(String attributeName, String text) {
         CriteriaBuilder builder = entityManager.getCriteriaBuilder();
